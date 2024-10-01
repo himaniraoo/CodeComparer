@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Comparison Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CodeCompare</h1>
+    
+    <div class="container">
+        <div class="code-section">
+            <h2>Snippet 1</h2>
+            <pre id="code1" class="code-input" contenteditable="true" placeholder="Paste your first code snippet here"></pre>
+        </div>
+
+        <div class="code-section">
+            <h2>Snippet 2</h2>
+            <pre id="code2" class="code-input" contenteditable="true" placeholder="Paste your second code snippet here"></pre>
+        </div>
+    </div>
+
+    <button onclick="compareCode()">Compare Codes</button>
+
+    <div id="result" class="result-section"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
